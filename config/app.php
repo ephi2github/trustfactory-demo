@@ -27,6 +27,9 @@ return [
     */
 
     'env' => env('APP_ENV', 'production'),
+    'admin' => [
+      'email' => env('ADMIN_EMAIL', 'admin@example.com'),
+    ],
 
     /*
     |--------------------------------------------------------------------------
